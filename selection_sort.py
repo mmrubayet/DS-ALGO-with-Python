@@ -15,4 +15,5 @@ def sel_sort(listA):
 myList = list(map(int, input("""I can sort any array Using Bubble sort algorithm.
 Enter some Integer Numbers separated by spaces.\n""").split()))
 
-print(sel_sort(myList))
+print(f'Given: {myList}' )
+print(f"Sorted using Selection Sort: {sel_sort(myList)}")

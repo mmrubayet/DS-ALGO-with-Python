@@ -13,4 +13,5 @@ def bubble(listA):
 myList = list(map(int, input("""I can sort any array Using Bubble sort algorithm.
 Enter some Integer Numbers separated by spaces.\n""").split()))
 
-print(bubble(myList))
+print('Given: {}'.format(myList))
+print("Sorted using Bubble Sort: {}" .format(bubble(myList)))
