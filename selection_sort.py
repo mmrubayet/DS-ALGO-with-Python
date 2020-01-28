@@ -3,7 +3,6 @@ def sel_sort(listA):
 
     for i in iLength:
         minValue = i
-
         for j in range(i+1, len(listA)):
             if listA[j] < listA[minValue]:
                 minValue = j
