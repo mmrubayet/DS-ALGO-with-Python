@@ -9,7 +9,7 @@ def insertion(listA):
 
     return listA
 
-myList = list(map(int, input("""I can sort any array Using Bubble sort algorithm.
+myList = list(map(int, input("""I can sort any array Using Insertion sort algorithm.
 Enter some Integer Numbers separated by spaces.\n""").split()))
 
 print('Given:', myList )
