@@ -12,7 +12,7 @@ def sel_sort(listA):
 
     return listA
 
-myList = list(map(int, input("""I can sort any array Using Bubble sort algorithm.
+myList = list(map(int, input("""I can sort any array Using Bubble sort algorithm.\n
 Enter some Integer Numbers separated by spaces.\n""").split()))
 
 print(f'Given: {myList}' )
